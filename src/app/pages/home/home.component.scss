@@ -1,0 +1,26 @@
+swiper {
+    height: 80vh;
+    .slider-item {
+        height: 100%;
+    }
+    &:nth-child(1) {
+        background-image: url('../../../assets/slider1.jpg');
+    }
+    &:nth-child(2) {
+        background-image: url('../../../assets/slider2.jpg');
+    }
+    [nz-row] {
+        height: 100%;
+        [nz-col] {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h3 {
+                font-size: 36px;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

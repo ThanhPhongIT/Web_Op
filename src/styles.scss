@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~swiper/swiper-bundle';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sarabun', sans-serif !important;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
